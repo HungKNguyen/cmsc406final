@@ -1,1 +1,93 @@
+.purple-avatar {
+    background-color: #6C2AD4 !important;
+}
 
+.purple-border {
+    border: #6C2AD4 2px solid;
+    border-radius: 4px;
+    color: #6C2AD4
+}
+
+.purple-border:active {
+    border-color: #5B21B6;
+    color: #5B21B6
+}
+
+.purple-fill {
+    border-radius: 4px;
+    background-color: #6C2AD4;
+    color: #ffffff
+}
+
+.purple-fill.disabled {
+    background-color: #8b5cf6 !important;
+}
+
+.purple-fill:active {
+    background-color: #5B21B6;
+}
+
+.gray-avatar {
+    background-color: #6B7280 !important;
+}
+
+.gray-border {
+    border: #6B7280 2px solid;
+    border-radius: 4px;
+    color: #6B7280
+}
+
+.gray-border:active {
+    border-color: #4b5563;
+    color: #4b5563
+}
+
+.gray-fill {
+    border-radius: 4px;
+    background-color: #6B7280;
+    color: #ffffff
+}
+
+.gray-fill:active {
+    background-color: #4b5563;
+}
+
+.gray-fill.disabled {
+    background-color: #9ca3af !important;
+}
+
+.purple-btn {
+    background-color: #6C2AD4;
+    border-color: #6C2AD4;
+}
+
+.purple-btn:disabled {
+    background-color: #c4b5fd;
+    border-color: #c4b5fd;
+}
+
+.purple-btn:active,.purple-btn:hover {
+    background-color: #5B21B6 !important;
+    border-color: #5B21B6 !important;
+    transition-duration: 0.2s;
+}
+
+.custom-modal .modal-header {
+    color: #ffffff;
+    background-color: #6C2AD4;
+    border: none;
+}
+
+.custom-modal .modal-body {
+    height: 50vh;
+}
+
+
+
+.no-scroll-bar {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.no-scroll-bar::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
